@@ -12,6 +12,7 @@
  */
 :root {
   --bs-blue: #0d6efd;
+  --bs-blue-light: #4d7ac2;
   --bs-indigo: #6610f2;
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
@@ -42,6 +43,7 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-dentist-header: 155, 86, 181;
   --bs-primary-rgb: 13, 110, 253;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
@@ -49,6 +51,7 @@
   --bs-warning-rgb: 255, 193, 7;
   --bs-danger-rgb: 220, 53, 69;
   --bs-light-rgb: 248, 249, 250;
+  --bs-light-blue-rgb: 77, 122, 194;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -8157,6 +8160,11 @@ textarea.form-control-lg {
 .bg-light {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.bg-dentist-main {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dentist-header), var(--bs-bg-opacity)) !important;
 }
 
 .bg-dark {
